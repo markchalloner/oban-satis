@@ -1,0 +1,7 @@
+{
+    "minimum-stability":"dev",
+    "require": {
+        "composer/satis": "dev-master",
+        "markchalloner/satisgen": "~1.0"
+    }
+}

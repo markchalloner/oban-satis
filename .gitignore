@@ -1,0 +1,8 @@
+/.env*
+/.htaccess
+/plugins/*
+!/plugins/.gitkeep
+/satis.json
+/vendor
+/web
+.htpasswd

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DIR_SELF=$(dirname $0)
+DIR_ROOT=${DIR_SELF}/..
+DIR_BIN=${DIR_ROOT}/vendor/bin
+
+FILE_HTPASSWD=${DIR_ROOT}/.htpasswd
+
+if [ ! -f "${FILE_HTPASSWD}" ]
+then
+    echo "Creating user composer in ${FILE_HTPASSWD}"
+    htpasswd -c ${FILE_HTPASSWD} composer
+fi
+${DIR_BIN}/satisgen ${DIR_ROOT}/.htaccess.php ${DIR_ROOT}/.htaccess
+${DIR_BIN}/satisgen ${DIR_ROOT}/satis.php ${DIR_ROOT}/satis.json
+${DIR_BIN}/satis build ${DIR_ROOT}/satis.json ${DIR_ROOT}/web
