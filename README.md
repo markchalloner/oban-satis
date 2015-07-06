@@ -28,19 +28,29 @@ The build script
 
 ### Curated plugins
 
-Curated plugins (i.e. manually updated plugins) should be kept under plugins. These are then referenced from the satis.php file. See:
+Curated plugins (i.e. manually updated plugins) should be kept under plugins, in the following format
 
+```
+/plugins/{{vendor}}/{{name}}/{{name}}-{{version}}.zip
+```
+
+These are automatically loaded in the satis.php file. See:
+
+```
 satis.php
+```
 
 These zip files are a direct zip of the plugins contents (i.e. do not hold a top level folder). An example of the folder structure these zip files should adhere to are:
 
-    name.zip
-    |- assets/
-    |- config/
-    |- include
-    |- credits.txt
-    |- name.php
-    
+```
+name.zip
+|- assets/
+|- config/
+|- include
+|- credits.txt
+|- name.php
+```
+
 The zip files downloaded (e.g. from Envato/CodeCanyon) may have to be unzipped and the correct contents rezipped to follow this folder structure.
 
 ## Change log
