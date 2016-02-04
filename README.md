@@ -53,12 +53,32 @@ name.zip
 
 The zip files downloaded (e.g. from Envato/CodeCanyon) may have to be unzipped and the correct contents rezipped to follow this folder structure.
 
+## Deployment
+
+Install [Rocketeer]:
+
+``` bash
+wget http://rocketeer.autopergamene.eu/versions/rocketeer.phar
+chmod +x rocketeer.phar
+mv rocketeer.phar /usr/local/bin/rocketeer
+
+```
+
+Run the deployment:
+
+``` bash
+rocketeer deploy --branch=master --host={{host}}
+
+```
+
 ## Change log
 
 Please see [CHANGELOG] for more information what has changed recently.
 
+[CHANGELOG]: CHANGELOG.md
+[Dotenv]: https://github.com/vlucas/phpdotenv
+[Rocketeer]: https://github.com/rocketeers/rocketeer
 [Satis]: https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md#satis
 [SatisGen]: https://github.com/markchalloner/satisgen
-[Dotenv]: https://github.com/vlucas/phpdotenv
-[CHANGELOG]: CHANGELOG.md
+
 

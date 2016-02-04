@@ -1,0 +1,101 @@
+20150903182601
+20150903183236
+20150903183526
+20150903183616
+20150904144259
+$ git clone "git@github.com:oban/linksdb.git" "/home/production/html/links.obandigital.com/releases/20150904151314" --branch="master" --depth="1"
+git clone "git@github.com:oban/linksdb.git" "/home/production/html/links.obandigital.com/releases/20150904151314" --branch="master" --depth="1"
+Cloning into '/home/production/html/links.obandigital.com/releases/20150904151314'...
+$ cd /home/production/html/links.obandigital.com/releases/20150904151314
+$ git submodule update --init --recursive
+cd /home/production/html/links.obandigital.com/releases/20150904151314
+git submodule update --init --recursive
+
+
+/usr/local/bin/composer
+$ cd /home/production/html/links.obandigital.com/releases/20150904151314
+$ /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
+cd /home/production/html/links.obandigital.com/releases/20150904151314
+/usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
+Loading composer repositories with package information
+Installing dependencies from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. Run update to update them.
+  - Installing patchwork/utf8 (v1.2.3)
+    Loading from cache
+
+  - Installing symfony/translation (v2.7.3)
+    Loading from cache
+
+  - Installing nesbot/carbon (1.20.0)
+    Loading from cache
+
+  - Installing kzykhys/parallel (v0.1.0)
+    Loading from cache
+
+  - Installing illuminate/support (v4.2.17)
+    Loading from cache
+
+  - Installing phpseclib/phpseclib (0.3.10)
+    Loading from cache
+
+  - Installing symfony/finder (v2.5.12)
+    Loading from cache
+
+  - Installing illuminate/filesystem (v4.2.17)
+    Loading from cache
+
+  - Installing illuminate/remote (v4.2.16)
+    Loading from cache
+
+  - Installing psr/log (1.0.0)
+    Loading from cache
+
+  - Installing monolog/monolog (1.17.1)
+    Loading from cache
+
+  - Installing illuminate/log (v4.2.17)
+    Loading from cache
+
+  - Installing illuminate/container (v4.2.17)
+    Loading from cache
+
+  - Installing illuminate/events (v4.2.17)
+    Loading from cache
+
+  - Installing symfony/console (v2.5.12)
+    Loading from cache
+
+  - Installing illuminate/console (v4.2.17)
+    Loading from cache
+
+  - Installing illuminate/config (v4.2.17)
+    Loading from cache
+
+  - Installing d11wtq/boris (v1.0.10)
+    Loading from cache
+
+  - Installing anahkiasen/rocketeer (2.2.0)
+    Loading from cache
+
+Generating autoload files
+
+
+
+$ cd /home/production/html/links.obandigital.com/releases/20150904151314
+$ chmod -R 755 /home/production/html/links.obandigital.com/releases/20150904151314/web
+$ chmod -R g+s /home/production/html/links.obandigital.com/releases/20150904151314/web
+$ sudo chown -R www-data:www-data /home/production/html/links.obandigital.com/releases/20150904151314/web
+cd /home/production/html/links.obandigital.com/releases/20150904151314
+chmod -R 755 /home/production/html/links.obandigital.com/releases/20150904151314/web
+chmod -R g+s /home/production/html/links.obandigital.com/releases/20150904151314/web
+sudo chown -R www-data:www-data /home/production/html/links.obandigital.com/releases/20150904151314/web
+
+$ ln -s /home/production/html/links.obandigital.com/releases/20150904151314 /home/production/html/links.obandigital.com/current-temp
+$ mv -Tf /home/production/html/links.obandigital.com/current-temp /home/production/html/links.obandigital.com/current
+ln -s /home/production/html/links.obandigital.com/releases/20150904151314 /home/production/html/links.obandigital.com/current-temp
+mv -Tf /home/production/html/links.obandigital.com/current-temp /home/production/html/links.obandigital.com/current
+
+$ rm -rf /home/production/html/links.obandigital.com/releases/20150903182601
+rm -rf /home/production/html/links.obandigital.com/releases/20150903182601
+
+|=> Removing <info>1 release</info> from the server

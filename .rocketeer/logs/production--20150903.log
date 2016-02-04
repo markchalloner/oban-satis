@@ -1,0 +1,162 @@
+20150903182601
+20150903183236
+20150903183526
+/usr/local/bin/composer
+$ git --version
+git --version
+git version 1.9.1
+git version 1.9.1
+/usr/bin/php
+/usr/bin/php
+$ /usr/bin/php -m
+/usr/bin/php -m
+[PHP Modules]
+apc
+apcu
+bcmath
+bz2
+calendar
+Core
+ctype
+curl
+date
+dba
+dom
+ereg
+exif
+fileinfo
+filter
+ftp
+gd
+gettext
+hash
+iconv
+json
+libxml
+mbstring
+memcached
+mhash
+mysql
+mysqli
+openssl
+pcntl
+pcre
+PDO
+pdo_mysql
+Phar
+posix
+readline
+Reflection
+session
+shmop
+SimpleXML
+soap
+sockets
+SPL
+standard
+sysvmsg
+sysvsem
+sysvshm
+tokenizer
+wddx
+xml
+xmlreader
+xmlwriter
+Zend OPcache
+zip
+zlib
+[Zend Modules]
+Zend OPcache
+$ git clone "git@github.com:oban/linksdb.git" "/home/production/html/links.obandigital.com/releases/20150903183616" --branch="master" --depth="1"
+git clone "git@github.com:oban/linksdb.git" "/home/production/html/links.obandigital.com/releases/20150903183616" --branch="master" --depth="1"
+Cloning into '/home/production/html/links.obandigital.com/releases/20150903183616'...
+$ cd /home/production/html/links.obandigital.com/releases/20150903183616
+$ git submodule update --init --recursive
+cd /home/production/html/links.obandigital.com/releases/20150903183616
+git submodule update --init --recursive
+
+
+/usr/local/bin/composer
+$ cd /home/production/html/links.obandigital.com/releases/20150903183616
+$ /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
+cd /home/production/html/links.obandigital.com/releases/20150903183616
+/usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
+Loading composer repositories with package information
+Installing dependencies from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. Run update to update them.
+  - Installing patchwork/utf8 (v1.2.3)
+    Downloading: Connecting...    Downloading: 0%               Downloading: 5%    Downloading: 10%    Downloading: 15%    Downloading: 20%    Downloading: 25%    Downloading: 30%    Downloading: 35%    Downloading: 40%    Downloading: 45%    Downloading: 50%    Downloading: 55%    Downloading: 60%    Downloading: 65%    Downloading: 70%    Downloading: 75%    Downloading: 80%    Downloading: 85%    Downloading: 90%    Downloading: 95%    Downloading: 100%    Downloading: 100%
+
+  - Installing symfony/translation (v2.7.3)
+    Downloading: Connecting...    Downloading: 0%               Downloading: 5%    Downloading: 10%    Downloading: 15%    Downloading: 20%    Downloading: 25%    Downloading: 30%    Downloading: 35%    Downloading: 45%    Downloading: 50%    Downloading: 55%    Downloading: 65%    Downloading: 70%    Downloading: 75%    Downloading: 80%    Downloading: 85%    Downloading: 90%    Downloading: 95%    Downloading: 100%
+
+  - Installing nesbot/carbon (1.20.0)
+    Downloading: Connecting...    Downloading: 0%               Downloading: 15%    Downloading: 20%    Downloading: 35%    Downloading: 50%    Downloading: 55%    Downloading: 70%    Downloading: 90%    Downloading: 100%
+
+  - Installing kzykhys/parallel (v0.1.0)
+    Downloading: Connecting...    Downloading: 100%         
+
+  - Installing illuminate/support (v4.2.17)
+    Downloading: Connecting...    Downloading: 100%         
+
+  - Installing phpseclib/phpseclib (0.3.10)
+    Downloading: Connecting...    Downloading: 0%               Downloading: 5%    Downloading: 10%    Downloading: 15%    Downloading: 20%    Downloading: 25%    Downloading: 30%    Downloading: 35%    Downloading: 40%    Downloading: 45%    Downloading: 50%    Downloading: 55%    Downloading: 60%    Downloading: 65%    Downloading: 70%    Downloading: 75%    Downloading: 80%    Downloading: 85%    Downloading: 90%    Downloading: 95%    Downloading: 100%    Downloading: 100%
+
+  - Installing symfony/finder (v2.5.12)
+    Downloading: Connecting...    Downloading: 0%               Downloading: 5%    Downloading: 10%    Downloading: 15%    Downloading: 20%    Downloading: 25%    Downloading: 30%    Downloading: 35%    Downloading: 100%
+
+  - Installing illuminate/filesystem (v4.2.17)
+    Downloading: Connecting...    Downloading: 100%         
+
+  - Installing illuminate/remote (v4.2.16)
+    Downloading: Connecting...    Downloading: 100%         
+
+  - Installing psr/log (1.0.0)
+    Downloading: Connecting...    Downloading: 0%               Downloading: 15%    Downloading: 30%    Downloading: 45%    Downloading: 60%    Downloading: 75%    Downloading: 100%
+
+  - Installing monolog/monolog (1.17.1)
+    Downloading: Connecting...    Downloading: 0%               Downloading: 5%    Downloading: 10%    Downloading: 15%    Downloading: 20%    Downloading: 25%    Downloading: 30%    Downloading: 35%    Downloading: 40%    Downloading: 45%    Downloading: 50%    Downloading: 55%    Downloading: 60%    Downloading: 65%    Downloading: 70%    Downloading: 75%    Downloading: 80%    Downloading: 85%    Downloading: 90%    Downloading: 95%    Downloading: 100%    Downloading: 100%
+
+  - Installing illuminate/log (v4.2.17)
+    Downloading: Connecting...    Downloading: 100%         
+
+  - Installing illuminate/container (v4.2.17)
+    Downloading: Connecting...    Downloading: 100%         
+
+  - Installing illuminate/events (v4.2.17)
+    Downloading: Connecting...    Downloading: 100%         
+
+  - Installing symfony/console (v2.5.12)
+    Downloading: Connecting...    Downloading: 0%               Downloading: 5%    Downloading: 10%    Downloading: 15%    Downloading: 20%    Downloading: 25%    Downloading: 30%    Downloading: 35%    Downloading: 40%    Downloading: 45%    Downloading: 50%    Downloading: 55%    Downloading: 60%    Downloading: 65%    Downloading: 70%    Downloading: 75%    Downloading: 80%    Downloading: 85%    Downloading: 90%    Downloading: 95%    Downloading: 100%    Downloading: 100%
+
+  - Installing illuminate/console (v4.2.17)
+    Downloading: Connecting...    Downloading: 100%         
+
+  - Installing illuminate/config (v4.2.17)
+    Downloading: Connecting...    Downloading: 100%         
+
+  - Installing d11wtq/boris (v1.0.10)
+    Downloading: Connecting...    Downloading: 0%               Downloading: 50%    Downloading: 65%    Downloading: 100%
+
+  - Installing anahkiasen/rocketeer (2.2.0)
+    Downloading: Connecting...    Downloading: 100%         
+
+Generating autoload files
+
+
+
+$ cd /home/production/html/links.obandigital.com/releases/20150903183616
+$ chmod -R 755 /home/production/html/links.obandigital.com/releases/20150903183616/web
+$ chmod -R g+s /home/production/html/links.obandigital.com/releases/20150903183616/web
+$ sudo chown -R www-data:www-data /home/production/html/links.obandigital.com/releases/20150903183616/web
+cd /home/production/html/links.obandigital.com/releases/20150903183616
+chmod -R 755 /home/production/html/links.obandigital.com/releases/20150903183616/web
+chmod -R g+s /home/production/html/links.obandigital.com/releases/20150903183616/web
+sudo chown -R www-data:www-data /home/production/html/links.obandigital.com/releases/20150903183616/web
+sudo: no tty present and no askpass program specified
+$ ln -s /home/production/html/links.obandigital.com/releases/20150903183616 /home/production/html/links.obandigital.com/current-temp
+$ mv -Tf /home/production/html/links.obandigital.com/current-temp /home/production/html/links.obandigital.com/current
+ln -s /home/production/html/links.obandigital.com/releases/20150903183616 /home/production/html/links.obandigital.com/current-temp
+mv -Tf /home/production/html/links.obandigital.com/current-temp /home/production/html/links.obandigital.com/current
+
+|=> No releases to prune from the server

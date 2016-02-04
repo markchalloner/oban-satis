@@ -1,0 +1,156 @@
+20151116131958
+20151130163502
+$ git clone "git@github.com:oban/save.git" "/home/production/html/save.obandigital.com/releases/20151130163642" --branch="master" --depth="1"
+git clone "git@github.com:oban/save.git" "/home/production/html/save.obandigital.com/releases/20151130163642" --branch="master" --depth="1"
+Cloning into '/home/production/html/save.obandigital.com/releases/20151130163642'...
+$ cd /home/production/html/save.obandigital.com/releases/20151130163642
+$ git submodule update --init --recursive
+cd /home/production/html/save.obandigital.com/releases/20151130163642
+git submodule update --init --recursive
+
+/usr/local/bin/composer
+$ cd /home/production/html/save.obandigital.com/releases/20151130163642
+$ /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
+cd /home/production/html/save.obandigital.com/releases/20151130163642
+/usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
+Loading composer repositories with package information
+Installing dependencies from lock file
+  - Installing nikic/php-parser (v1.4.1)
+    Loading from cache
+
+  - Installing classpreloader/classpreloader (2.0.0)
+    Loading from cache
+
+  - Installing danielstjules/stringy (1.10.0)
+    Loading from cache
+
+  - Installing doctrine/inflector (v1.0.1)
+    Loading from cache
+
+  - Installing jakub-onderka/php-console-color (0.1)
+    Loading from cache
+
+  - Installing jeremeamia/superclosure (2.1.0)
+    Loading from cache
+
+  - Installing vlucas/phpdotenv (v1.1.1)
+    Loading from cache
+
+  - Installing symfony/var-dumper (v2.7.6)
+    Loading from cache
+
+  - Installing symfony/translation (v2.7.6)
+    Loading from cache
+
+  - Installing symfony/routing (v2.7.6)
+    Loading from cache
+
+  - Installing symfony/process (v2.7.6)
+    Loading from cache
+
+  - Installing symfony/http-foundation (v2.7.6)
+    Loading from cache
+
+  - Installing symfony/event-dispatcher (v2.7.6)
+    Loading from cache
+
+  - Installing psr/log (1.0.0)
+    Loading from cache
+
+  - Installing symfony/debug (v2.7.6)
+    Loading from cache
+
+  - Installing symfony/http-kernel (v2.7.6)
+    Loading from cache
+
+  - Installing symfony/finder (v2.7.6)
+    Loading from cache
+
+  - Installing symfony/dom-crawler (v2.7.6)
+    Loading from cache
+
+  - Installing symfony/css-selector (v2.7.6)
+    Loading from cache
+
+  - Installing symfony/console (v2.7.6)
+    Loading from cache
+
+  - Installing swiftmailer/swiftmailer (v5.4.1)
+    Loading from cache
+
+  - Installing jakub-onderka/php-console-highlighter (v0.3.2)
+    Loading from cache
+
+  - Installing dnoegel/php-xdg-base-dir (0.1)
+    Loading from cache
+
+  - Installing psy/psysh (v0.5.2)
+    Loading from cache
+
+  - Installing paragonie/random_compat (1.0.10)
+    Loading from cache
+
+  - Installing nesbot/carbon (1.20.0)
+    Loading from cache
+
+  - Installing mtdowling/cron-expression (v1.0.4)
+    Loading from cache
+
+  - Installing monolog/monolog (1.17.2)
+    Loading from cache
+
+  - Installing league/flysystem (1.0.15)
+    Loading from cache
+
+  - Installing laravel/framework (v5.1.23)
+    Loading from cache
+
+  - Installing laravelcollective/html (v5.1.6)
+    Loading from cache
+
+  - Installing phpoffice/phpexcel (1.8.1)
+    Loading from cache
+
+Generating autoload files
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+Compiling common classes
+$ cd /home/production/html/save.obandigital.com/releases/20151130163642
+$ chmod -R 755 /home/production/html/save.obandigital.com/releases/20151130163642/public
+$ chmod -R g+s /home/production/html/save.obandigital.com/releases/20151130163642/public
+$ sudo chown -R www-data:www-data /home/production/html/save.obandigital.com/releases/20151130163642/public
+cd /home/production/html/save.obandigital.com/releases/20151130163642
+chmod -R 755 /home/production/html/save.obandigital.com/releases/20151130163642/public
+chmod -R g+s /home/production/html/save.obandigital.com/releases/20151130163642/public
+sudo chown -R www-data:www-data /home/production/html/save.obandigital.com/releases/20151130163642/public
+
+$ cd /home/production/html/save.obandigital.com/releases/20151130163642
+$ chmod -R 755 /home/production/html/save.obandigital.com/releases/20151130163642/storage
+$ chmod -R g+s /home/production/html/save.obandigital.com/releases/20151130163642/storage
+$ sudo chown -R www-data:www-data /home/production/html/save.obandigital.com/releases/20151130163642/storage
+cd /home/production/html/save.obandigital.com/releases/20151130163642
+chmod -R 755 /home/production/html/save.obandigital.com/releases/20151130163642/storage
+chmod -R g+s /home/production/html/save.obandigital.com/releases/20151130163642/storage
+sudo chown -R www-data:www-data /home/production/html/save.obandigital.com/releases/20151130163642/storage
+
+$ mv /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs /home/production/html/save.obandigital.com/shared/storage/logs
+mv /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs /home/production/html/save.obandigital.com/shared/storage/logs
+mv: cannot move ‘/home/production/html/save.obandigital.com/releases/20151130163642/storage/logs’ to ‘/home/production/html/save.obandigital.com/shared/storage/logs’: Permission denied
+$ mv /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs /home/production/html/save.obandigital.com/shared/storage/logs
+mv /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs /home/production/html/save.obandigital.com/shared/storage/logs
+mv: cannot move ‘/home/production/html/save.obandigital.com/releases/20151130163642/storage/logs’ to ‘/home/production/html/save.obandigital.com/shared/storage/logs’: Permission denied
+$ sudo rm -rf /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs
+sudo rm -rf /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs
+
+$ ln -s /home/production/html/save.obandigital.com/shared/storage/logs /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs-temp
+$ mv -Tf /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs-temp /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs
+ln -s /home/production/html/save.obandigital.com/shared/storage/logs /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs-temp
+mv -Tf /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs-temp /home/production/html/save.obandigital.com/releases/20151130163642/storage/logs
+ln: failed to create symbolic link ‘/home/production/html/save.obandigital.com/releases/20151130163642/storage/logs-temp’: Permission denied
+$ ln -s /home/production/html/save.obandigital.com/releases/20151130163642 /home/production/html/save.obandigital.com/current-temp
+$ mv -Tf /home/production/html/save.obandigital.com/current-temp /home/production/html/save.obandigital.com/current
+ln -s /home/production/html/save.obandigital.com/releases/20151130163642 /home/production/html/save.obandigital.com/current-temp
+mv -Tf /home/production/html/save.obandigital.com/current-temp /home/production/html/save.obandigital.com/current
+
+|=> No releases to prune from the server
