@@ -74,7 +74,7 @@ $packages = array(
         'vendor'   => 'gravityforms',
         'name'     => 'gravityforms',
         '_comment' => 'Custom package for Gravity Forms see: https://github.com/gravityforms/gravityforms',
-        'versions' => array('1.9.5.12'),
+        'versions' => array('1.9.15'),
         'url'      => 'https://github.com/gravityforms/gravityforms/archive/%3$s.zip'
     )
 );
