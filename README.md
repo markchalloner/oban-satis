@@ -55,21 +55,22 @@ The zip files downloaded (e.g. from Envato/CodeCanyon) may have to be unzipped a
 
 ## Deployment
 
-Install [Rocketeer]:
+- Install [Rocketeer]:
 
-``` bash
-wget http://rocketeer.autopergamene.eu/versions/rocketeer.phar
-chmod +x rocketeer.phar
-mv rocketeer.phar /usr/local/bin/rocketeer
+  ``` bash
+  wget http://rocketeer.autopergamene.eu/versions/rocketeer.phar
+  chmod +x rocketeer.phar
+  mv rocketeer.phar /usr/local/bin/rocketeer
 
-```
+  ```
 
-Run the deployment:
+- Upload a .env and .htpasswd to the staging/production server (to the folder a level above the project folder on the server)
+- Run the deployment:
 
-``` bash
-rocketeer deploy --branch=master --host={{host}}
+  ``` bash
+  rocketeer deploy --branch=master --host={{host}}
 
-```
+  ```
 
 ## Change log
 
