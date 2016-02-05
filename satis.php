@@ -104,11 +104,11 @@ $packages = array_merge($packages, get_plugins_packages(__DIR__.'/plugins'));
 ?>
 {
     "name": "<?php echo $name ?>",
-    "homepage": "http://<?php echo $domain ?>",
+    "homepage": "https://<?php echo $domain ?>",
     "archive": {
         "directory": "dist",
         "format": "zip",
-        "prefix-url": "http://<?php echo $domain ?>",
+        "prefix-url": "https://<?php echo $domain ?>",
         "skip-dev": true
     },
     "repositories": [
