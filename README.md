@@ -9,7 +9,7 @@
 Via Git
 
 ``` bash
-git clone git@github.com/oban/oban-satis.git
+git clone git@github.com:oban/oban-satis.git
 ```
 
 ## Usage
