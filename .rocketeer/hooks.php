@@ -24,7 +24,7 @@ return [
     // Tasks to execute after the core Rocketeer Tasks
     'after'  => [
         'setup'   => [],
-        'deploy'  => ['ln -s ../../.env .', 'ln -s ../../.htpasswd .', 'ln -s ../../plugins .', 'bin/build'],
+        'deploy'  => ['bin/build'],
         'cleanup' => [],
     ],
 

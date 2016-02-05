@@ -64,7 +64,7 @@ The zip files downloaded (e.g. from Envato/CodeCanyon) may have to be unzipped a
 
   ```
 
-- Upload the following files to the staging/production server (to the folder a level above the project folder on the server)
+- Upload the following files to the shared folder on the staging/production server:
   - .env
   - .htpasswd
   - plugins/*
