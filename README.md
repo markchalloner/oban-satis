@@ -64,7 +64,10 @@ The zip files downloaded (e.g. from Envato/CodeCanyon) may have to be unzipped a
 
   ```
 
-- Upload a .env and .htpasswd to the staging/production server (to the folder a level above the project folder on the server)
+- Upload the following files to the staging/production server (to the folder a level above the project folder on the server)
+  - .env
+  - .htpasswd
+  - plugins/*
 - Run the deployment:
 
   ``` bash
