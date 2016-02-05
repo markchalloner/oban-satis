@@ -2,10 +2,9 @@
 
 DIR_SELF=$(dirname $0)
 DIR_ROOT=${DIR_SELF}/..
-DIR_PROJECT=${DIR_ROOT}/..
 DIR_BIN=${DIR_ROOT}/vendor/bin
 
-FILE_HTPASSWD=${DIR_PROJECT}/.htpasswd
+FILE_HTPASSWD=${DIR_ROOT}/.htpasswd
 
 if [ ! -f "${FILE_HTPASSWD}" ]
 then
