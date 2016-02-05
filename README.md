@@ -74,6 +74,15 @@ The zip files downloaded (e.g. from Envato/CodeCanyon) may have to be unzipped a
   rocketeer deploy --branch=master --host={{host}}
 
   ```
+  
+### Rollbacks
+
+- A rollback can be done with:
+
+  ``` bash
+  rocketeer rollback --host={{host}}
+
+  ```
 
 ## Change log
 
