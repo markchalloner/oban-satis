@@ -113,7 +113,7 @@ $packages = array_merge($packages, get_plugins_packages(__DIR__.'/plugins'));
     },
     "repositories": [
         <?php foreach ($packages as $i => $package): ?>
-        <?php foreach ($package['versions'] as $version): ?>
+        <?php foreach ($package['versions'] as $j => $version): ?>
         {
             <?php if (array_key_exists('comment', $package)): ?>
             "_comment": "<?= $package['comment'] ?>",
@@ -128,7 +128,7 @@ $packages = array_merge($packages, get_plugins_packages(__DIR__.'/plugins'));
                     "url": "<?= sprintf($package['url'], $package['vendor'], $package['name'], $version) ?>"
                 }
             }
-        }<?= ($i < count($packages) - 1 ? ',' : '') . "\n" ?>
+        }<?= ($i < count($packages) - 1  && $j !== count($package['versions']) - 1 ? ',' : '') . "\n" ?>
         <?php endforeach ?>
         <?php endforeach ?>
     ],
